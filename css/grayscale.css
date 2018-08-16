@@ -11,8 +11,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #1A5196;
+  border: 1px solid #1A5196;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -71,15 +71,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #1A5196;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #1A5196;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #1A5196;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #1A5196;
   }
 }
 
@@ -97,17 +97,13 @@
 }
 
 .masthead h1 {
-  /* font-family: 'Varela Round';
+  font-family: 'Varela Round';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgb(26,81,150),rgba(60,170,255,0.9));
   -webkit-text-fill-color: transparent; 
-  -webkit-background-clip: text;  */
-}
-
-h1 {
-  color: black;
+  -webkit-background-clip: text; 
 }
 
 .masthead h2 {
@@ -172,9 +168,9 @@ h1 {
 }
 
 #photo {
-  border: 3px solid white;
+  border: 3px solid #1A5196;
   border-radius: 50%;
-  margin: 50px;
+  /* margin: 50px; */
   position: relative;
   top: -100px;
   
