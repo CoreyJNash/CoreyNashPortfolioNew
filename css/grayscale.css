@@ -89,7 +89,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%);
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url(https://i.imgur.com/KA7wajv.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -97,13 +97,17 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  /* font-family: 'Varela Round';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent; 
-  -webkit-background-clip: text; 
+  -webkit-background-clip: text;  */
+}
+
+h1 {
+  color: black;
 }
 
 .masthead h2 {
@@ -145,15 +149,16 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #164F98;
+  border: 1px solid white;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #5B092C;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #5B092C;
   color: white;
 }
 
@@ -164,6 +169,15 @@
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+#photo {
+  border: 3px solid white;
+  border-radius: 50%;
+  margin: 50px;
+  position: relative;
+  top: -100px;
+  
 }
 
 .about-section p {
@@ -294,3 +308,5 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+
