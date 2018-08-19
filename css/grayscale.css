@@ -101,10 +101,10 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgb(26,81,150),rgba(60,170,255,0.9));
+  background: -webkit-linear-gradient(rgb(187,169,73),rgba(60,170,255,0.9));
   -webkit-text-fill-color: transparent; 
   -webkit-background-clip: text; 
-}
+ }
 
 .masthead h2 {
   max-width: 20rem;
