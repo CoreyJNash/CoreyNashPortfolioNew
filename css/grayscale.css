@@ -316,6 +316,10 @@ footer {
   background-color: #164F98;
   border: 1px solid white;
   color: white;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 .resume:hover {
